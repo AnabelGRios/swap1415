@@ -1,0 +1,13 @@
+1. Señala la opción falsa: Adquirir un segundo servidor para desarrollo es una buena opción porque:
+a) Las mejoras en software se pueden probar primero en el servidor de desarrollo
+b) Se evita en gran medida que los usuarios finales vean fallos
+c) Se puede hacer frente a mayores niveles de tráfico
+d) Se pueden arreglar los fallos sin que el sistema esté caído
+Respuesta correcta: C
+
+2. Una granja web
+a) Es un conjunto de servidores, todos dedicados a dar el mismo servicio
+b) Es un conjunto de servidores sencillo pero poco flexible
+c) Es un sistema fácil de instalar y configurar
+d) Es un sistema fácilmente escalable y flexible, pero muy complejo
+Respuesta correcta: D

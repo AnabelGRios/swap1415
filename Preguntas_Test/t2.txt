@@ -1,0 +1,13 @@
+1. Si un módulo de una aplicación necesita ejecutarse obligatoriamente en una máquina con un hardware determinado, ¿qué es lo que no estamos consiguiendo?
+   a) Paralelismo
+   b) Transparencia de ubicación
+   c) Dependencia
+   d) Disponibilidad
+   Respuesta correcta: B
+
+2. Supongamos un sistema con dos componentes, funcionando el 93.5% y el 99.9% del tiempo respectivamente, y replicamos el primer componente, ¿cuáles serán las disponibilidades antes y después de replicarlo?
+   a) 92.6% y 99.5
+   b) 92.6% y 98.33
+   c) 93.4% y 98.33
+   d) 93.4% y 99.5
+   Respuesta correcta: D

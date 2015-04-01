@@ -39,14 +39,14 @@ Balanceo de carga usando haproxy
 ----------------------------------------------
 
 Primero deberemos instalar haproxy con el siguiente comando  
-    sudo apt-get install haproxy joe  
+    `sudo apt-get install haproxy joe`  
 con lo que también se nos instalará el editor de textos joe.  
-En este caso también tendremos que modificar el fichero de  configuración para que funcione como un balanceador de carga (y con el algoritmo de balanceo que prefiramos). Así, modificamos el fichero /etc/haproxy/haproxy.cfg con la configuración dada en el guión de prácticas. Con esta configuración el balanceador debería utilizar el algoritmo Round-Robin, es decir, cada vez que mandamos una petición a la máquina balanceadora, ésta manda una al servidor 1 y la siguiente al servidor 2, alternándolos.  
+En este caso también tendremos que modificar el fichero de  configuración para que funcione como un balanceador de carga (y con el algoritmo de balanceo que prefiramos). Así, modificamos el fichero `/etc/haproxy/haproxy.cfg` con la configuración dada en el guión de prácticas. Con esta configuración el balanceador debería utilizar el algoritmo Round-Robin, es decir, cada vez que mandamos una petición a la máquina balanceadora, ésta manda una al servidor 1 y la siguiente al servidor 2, alternándolos.  
 Es conveniente destacar que para que haproxy funcione es necesario tener libre el puerto 80 en la máquina balanceadora, lo que significa que no sólo no podemos tener Apache corriendo sino que, además, si hemos estado utilizando nginx debemos pararlo con la siguiente sentencia:  
-    service nginx stop  
+    `service nginx stop`  
 
 Una vez hecho esto, lanzamos el servicio haproxy con la sentencia:  
-sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg  
+`sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg`  
 y si no obtenemos ningún error la salida al hacer curl es la siguiente:  
 
 ![HaProxy-RoundRobin](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica3/img/haproxyRoundRobin.png)  

@@ -1,0 +1,13 @@
+1. ¿Cuáles de los siguientes son problemas de la configuración de DMZ tradicional?
+   a) Se comparte el ancho de banda y la red y los servidores están expuestos a Internet.
+   b) Configurar el cortafuegos es muy difícil y además no separa a la granja web de los usuarios.
+   c) Se comparte el ancho de banda y configurar el cortafuegos es muy difícil.
+   d) Los servidores están expuestos a Internet y están junto a los usuarios en la red.
+Respuesta correcta: C
+
+2. ¿Cuál es un problema de la configuración de DMZ simple?
+   a) El cortafuegos puede ser un cuello de botella.
+   b) Los servidores siguen estando comprometidos si un usuario mete un virus.
+   c) Los servidores están expuestos a Internet.
+   d) Todas las anteriores son correctas.
+Respuesta correcta: D

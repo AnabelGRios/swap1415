@@ -1,0 +1,13 @@
+1. El algoritmo de balanceo que distribuye la carga a un conjunto de servidores y no la cambia hasta que éste se sobrecarga es
+   a) Basado en el menor número de conexiones.
+   b) Basado en ponderación.
+   c) Basado en prioridad.
+   d) Basado en tiempo de respuesta.
+Respuesta correcta: C
+
+2. Señala lo incorrecto sobre GSLB basado en DNS
+   a) Una de las opciones en las que funciona es a nivel authoritative DNS, es decir, poniendo el balanceador como servidor DNS a nivel de zona de autoridad.
+   b) La otra opción es configurarlo como proxy y ponerlo delante del authoritative DNS.
+   c) Monitoriza continuamente el estado de disponibilidad de los sitios a los que manda las peticiones.
+   d) Conoce las IP del usuario para determinar el servidor más cercano al que mandar la petición.
+Respuesta correcta: D

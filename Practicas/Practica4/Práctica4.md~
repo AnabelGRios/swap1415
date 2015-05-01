@@ -23,9 +23,8 @@ En esta práctica hemos comprobado el rendimiento de la granja web tanto en VMWa
 Apache Benchmark
 ----------------
   
-El script que hemos utilizado para lanzar ab ha sido el fichero [scriptApacheBenchmark.sh](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/scriptApacheBenchmark.sh) que hay en esta misma carpeta. Lo hemos lanzado 5 veces en cada caso con una carga de 1000 peticiones de 50 en 50.  
-Los resultados en VMWare han sido los siguientes: 
-   
+El script que hemos utilizado para lanzar ab ha sido el fichero "scriptApacheBenchmark.sh" que hay en esta misma carpeta. Lo hemos lanzado 5 veces en cada caso con una carga de 1000 peticiones de 50 en 50.  
+Los resultados en VMWare han sido los siguientes:  
 ![DatosABVM](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosABVM.png)  
 ![TimeTakenForTests](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimeTakenForTests.png)  
 ![FailedRequests](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/FailedRequests.png)  
@@ -39,9 +38,8 @@ Los resultados en VirtualBox han sido los siguientes:
 HTTPerf
 ---------
   
-El script que hemos utilizado para lanzar httperf ha sido el fichero [scriptHttperf.sh](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/scriptHttperf.sh) que hay en esta misma carpeta. Lo hemos lanzado 5 veces en cada caso con una carga de 500 peticiones tcp con 50 llamadas http cada una.  
+El script que hemos utilizado para lanzar httperf ha sido el fichero "scriptHttperf.sh" que hay en esta misma carpeta. Lo hemos lanzado 5 veces en cada caso con una carga de 500 peticiones tcp con 50 llamadas http cada una.  
 Los resultados en VMWare han sido los siguientes:  
-  
 ![DatosHttperfVM](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosHttperfVM.png)  
 ![TotalConnections](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalConnections.png)  
 ![Replies](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/Replies.png)  
@@ -54,8 +52,7 @@ En este caso no hemos hecho gráficas porque como vemos todos los valores han sa
 OpenWebLoad
 ------------
   
-El script que hemos utilizado para lanzar OpenWebLoad ha sido el fichero [scriptOpenWebLoad.sh](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/scriptOpenWebLoad.sh) que hay en esta misma carpeta. Lo hemos lanzado una vez, durante 5 minutos en cada caso.  
-  
+El script que hemos utilizado para lanzar OpenWebLoad ha sido el fichero "scriptOpenWebLoad.sh" que hay en esta misma carpeta. Lo hemos lanzado una vez, durante 5 minutos en cada caso.  
 Los resultados en VMWare han sido los siguientes:  
 ![DatosOPLWM](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosOPLVM.png)  
 ![TotalTPS](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalTPS.png)  

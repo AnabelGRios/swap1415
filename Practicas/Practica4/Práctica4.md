@@ -25,28 +25,28 @@ Apache Benchmark
   
 El script que hemos utilizado para lanzar ab ha sido el fichero "scriptApacheBenchmark.sh" que hay en esta misma carpeta. Lo hemos lanzado 5 veces en cada caso con una carga de 1000 peticiones de 50 en 50.  
 Los resultados en VMWare han sido los siguientes:  
-![DatosABVM][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosABVM.png]  
-![TimeTakenForTests][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimeTakenForTests.png]  
-![FailedRequests][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/FailedRequests.png]  
-![RequestsPerSecond][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/RequestsPerSecond.png]  
-![TimePerRequest][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimePerRequest.png]  
+![DatosABVM](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosABVM.png)  
+![TimeTakenForTests](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimeTakenForTests.png)  
+![FailedRequests](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/FailedRequests.png)  
+![RequestsPerSecond](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/RequestsPerSecond.png)  
+![TimePerRequest](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimePerRequest.png)  
 Los resultados en VirtualBox han sido los siguientes:  
-![DatosABVB][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosABVB.png]  
-![RequestsPerSecond&TimePerRequest][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/RequestsPerSecond%26TimePerRequest.png]  
-![TimeTakenForTests&FailedRequests][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimeTakenForTests%26FailedRequests.png]  
+![DatosABVB](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosABVB.png)  
+![RequestsPerSecond&TimePerRequest](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/RequestsPerSecond%26TimePerRequest.png)  
+![TimeTakenForTests&FailedRequests](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TimeTakenForTests%26FailedRequests.png)  
   
 HTTPerf
 ---------
   
 El script que hemos utilizado para lanzar httperf ha sido el fichero "scriptHttperf.sh" que hay en esta misma carpeta. Lo hemos lanzado 5 veces en cada caso con una carga de 500 peticiones tcp con 50 llamadas http cada una.  
 Los resultados en VMWare han sido los siguientes:  
-![DatosHttperfVM][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosHttperfVM.png]  
-![TotalConnections][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalConnections.png]  
-![Replies][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/Replies.png]  
-![RequestRate][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/RequestRate.png]  
-![Errors][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/Errors.png]  
+![DatosHttperfVM](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosHttperfVM.png)  
+![TotalConnections](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalConnections.png)  
+![Replies](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/Replies.png)  
+![RequestRate](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/RequestRate.png)  
+![Errors](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/Errors.png)  
 Los resultados en VirtualBox han sido los siguientes:  
-![DatosHttperfVB][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosHttperfVB.png]  
+![DatosHttperfVB](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosHttperfVB.png)  
 En este caso no hemos hecho gráficas porque como vemos todos los valores han salido iguales.  
   
 OpenWebLoad
@@ -54,15 +54,15 @@ OpenWebLoad
   
 El script que hemos utilizado para lanzar OpenWebLoad ha sido el fichero "scriptOpenWebLoad.sh" que hay en esta misma carpeta. Lo hemos lanzado una vez, durante 5 minutos en cada caso.  
 Los resultados en VMWare han sido los siguientes:  
-![DatosOPLWM][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosOPLVM.png]  
-![TotalTPS][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalTPS.png]  
-![AvgResponseTime][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/AvgResponseTime.png]  
-![MaxResponseTime][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/MaxResponseTime.png]  
+![DatosOPLWM](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosOPLVM.png)  
+![TotalTPS](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalTPS.png)  
+![AvgResponseTime](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/AvgResponseTime.png)  
+![MaxResponseTime](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/MaxResponseTime.png)  
 Los resultados en VirtualBox han sido los siguientes:  
-![DatosOPLVB][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosOPLVB.png]  
-![TotalTPSVB][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalTPSVB.png]  
-![AvgResponseTimeVB][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/AvgResponseTimeVB.png]  
-![MaxResponseTimeVB][https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/MaxResponseTimeVB.png]  
+![DatosOPLVB](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/DatosOPLVB.png)  
+![TotalTPSVB](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/TotalTPSVB.png)  
+![AvgResponseTimeVB](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/AvgResponseTimeVB.png)  
+![MaxResponseTimeVB](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica4/img/MaxResponseTimeVB.png)  
   
 Conclusiones
 --------------

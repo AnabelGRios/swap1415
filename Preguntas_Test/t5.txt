@@ -1,0 +1,13 @@
+1. Las principales limitaciones de los test son:
+   a) Las medidas dan una idea aproximada de cómo se comporta el servidor, pero no reflejan el rendimiento real.
+   b) No se puede simular el comportamiento de los usuarios.
+   c) La dificultad a la hora de hacer pruebas en un entorno de producción.
+   d) Todas las anteriores.
+Respuesta correcta: D
+
+2. Los tipos de prueba que aplican una carga lo más parecida a la real pero en periodos cortos o durante un día o una semana son, respectivamente:
+   a) Carga y Estabilidad.
+   b) Carga y Capacidad.
+   c) Capacidad y Estabilidad.
+   d) Sobrecarga y Estabilidad.
+Respuesta correcta: A

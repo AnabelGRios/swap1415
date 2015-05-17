@@ -1,0 +1,13 @@
+1. La mejor forma de configurar un cortafuegos es:
+   a) Dejarlo como está, ya estará configurado.
+   b) Denegar las IPs que sabemos que conllevan ataques.
+   c) Por defecto, bloquear todo el tráfico y dejar pasar sólo el tráfico necesario.
+   d) Por defecto, permitir todo el tráfico y después cerrar los puertos que no necesitemos.
+Respuesta correcta: C
+
+2. Señalar la respuesta incorrecta. En la seguridad a nivel de administrador...
+   a) Las cuentas de administración serán eliminadas si no ponen en riesgo el desarrollo de aplicaciones.
+   b) Las claves deben ser seguras y cambiadas frecuentemente.
+   c) Las cuentas de administración serán usadas únicamente para tareas en las que sea imprescindible utilizarlas.
+   d) Los administradores del sistema tendrán cuentas con todos los permisos posibles.
+Respuesta correcta: A

@@ -1,0 +1,13 @@
+1. El almacenamiento basado en RAID 5:
+   a) Crea una copia exacta de un conjunto de datos en otros discos.
+   b) Usa división de bloques con un disco de paridad.
+   c) Usa divisón a nivel de bits.
+   d) Usa división de bloques, distribuyendo la paridad entre los discos.
+Respuesta correcta: D
+
+2. Realizar distribución funcional y segmentar la BD es, respectivamente:
+   a) Dividir la BD global en varias secciones en base a aplicaciones y hacer una división lógica de la BD.
+   b) Hacer una división lógica de la BD y divirla en varias secciones en base a aplicaciones.
+   c) Ninguna de las dos respuestas anteriores son correctas.
+   d) Ambas respuestas son correctas.
+Respuesta correcta: A

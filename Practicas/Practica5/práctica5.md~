@@ -30,11 +30,11 @@ Reiniciamos mysql con `/etc/init.d/mysql restart` y modificamos el mismo archivo
 Volvemos al maestro (máquina 1) y ejecutamos las sentencias:
 [!confEnMasestro2](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica5/img/confEnMaestro2.png)  
   
-Y ahora hacemos `SHOW MASTER STATUS` e introducimos los datos en el esclavo para establecer la relación entre ambas máquinas:
+Y ahora hacemos `SHOW MASTER STATUS` e introducimos los datos en el esclavo para establecer la relación entre ambas máquinas:  
 [!masterStatus](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica5/img/masterStatus.png)  
 [!confEnEsclavo](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica5/img/ConfEnEsclavo(datos).png)  
   
-En la máquina 2 iniciamos el esclavo con `START SLAVE`, en la máquina 1 desbloqueamos las tablas de nuevo y podemos comprobar que no ha habido ningún error ejecutando en el esclavo `SHOW SLAVE STATUS\G` y viendo que la variable "Seconds_Behind_Master" es distinta de null:
+En la máquina 2 iniciamos el esclavo con `START SLAVE`, en la máquina 1 desbloqueamos las tablas de nuevo y podemos comprobar que no ha habido ningún error ejecutando en el esclavo `SHOW SLAVE STATUS\G` y viendo que la variable "Seconds_Behind_Master" es distinta de null:  
 [!comprobaciónEnEsclavo](https://github.com/AnabelGRios/swap1415/blob/master/Practicas/Practica5/img/comprobaci%C3%B3nEnEsclavo.png)  
   
 Ahora podemos insertar cualquier dato en la máquina 1 (maestro) y comprobar que se inserta automáticamente la BD del esclavo:

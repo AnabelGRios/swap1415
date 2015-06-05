@@ -1,0 +1,14 @@
+1. Para determinar los requisitos del sistema puede ayudar...
+   a) Estimar el hardware en función de las necesidades de la empresa.
+   b) Monitorizar el sistema durante todo el tiempo que esté en uso.
+   c) Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial.
+   d) Todas las anteriores son correctas.
+Respuesta correcta: D
+
+2. ... consume pocos recursos, se puede almacenar en caché y presenta pocos riesgos en cuanto
+   a la seguridad y el mantenimiento.
+   a) Servir contenido estático.
+   b) Servir contenido dinámico.
+   c) Ambos.
+   d) Ninguno.
+Respuesta correcta: A
